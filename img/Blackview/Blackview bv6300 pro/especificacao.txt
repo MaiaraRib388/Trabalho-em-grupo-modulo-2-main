@@ -1,0 +1,45 @@
+Nome da marca: BLACKVIEW
+Condição do Produto: New
+Tela sensível ao toque: Sim
+Carregamento rápido: Sem suporte
+Porta de fone de ouvido de 3,5 mm: YES
+Sistema de operação: Android
+Pixels da câmera traseira: 16MP
+Resolução da Tela: 720x1440
+Pixels da câmera frontal: 13MP
+Design: BAR
+Bateria: Não destacável
+Potência de carregamento: Outro
+Quantidade de câmeras frontais: 1
+Idioma: english,Russo,Alemão,French,Spanish,POLISH,Português,Italiano,Turkish,Norueguês,Coreano,Japanese,Árabe
+Quantidade de câmeras traseiras: 4
+Tamanho da Tela: 4,3
+Tela: tela normal
+Origem: CN (Origem)
+Tecnologia de biometria: Reconhecimento de impressão digital
+Capacidade da Bateria (mAh): 4380
+Tipo de Interface de carregamento: TYPE-C
+Carregamento sem fio: YES
+Quantidade de Chips: 2 cartões SIM
+NFC: YES
+Quantidade de núcleos da CPU: Núcleo octa
+Faixa de capacidade da bateria: 3500-4499 mAh
+Modelo da CPU: MTK
+MTK Modelo: Helio P70
+Tipo de cartão de memória: Compartilhado com slot SIM
+Relação de zoom óptico: 4X
+Outros recursos: Telefone esportes
+Certificado: CE
+Tempo de espera: Outro
+Tamanhos de tela: Compacto (5.5-5.99")
+Material da tela: LCD
+Rear Camera: 16MP+8MP+2.0MP+0.3MP
+2G: 1900/1800/900/850
+3G WCDMA: B1/B2/B4/B5/B8
+3G CDMA: BC0/BC1/BC6
+4G TDD: B38/B40/B41
+4G FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/B25/B26/B66/B20/B28A/B28B
+
+
+
+https://pt.aliexpress.com/item/4001313005834.html?spm=a2g0o.store_pc_allProduct.8148356.9.72f97348jy8lpj&pdp_npi=2%40dis%21BRL%21R%24%201.490%2C00%21R%24%20983%2C39%21%21%21%21%21%402103255a16679388396985983e12fb%2112000019055162932%21sh

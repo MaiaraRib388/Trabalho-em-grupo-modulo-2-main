@@ -1,0 +1,48 @@
+Nome da marca: ULEFONE
+Condição do Produto: New
+Tela sensível ao toque: Sim
+Carregamento rápido: Outro
+Porta de fone de ouvido de 3,5 mm: YES
+Sistema de operação: Android
+Pixels da câmera traseira: 20MP
+Resolução da Tela: 720*1600
+Pixels da câmera frontal: 16MP
+Design: BAR
+Bateria: Não destacável
+Potência de carregamento: Outro
+Quantidade de câmeras frontais: 1
+Idioma: english,Russo,Alemão,French,Spanish,POLISH,Português,Italiano,Turkish,Norueguês,Coreano,Japanese,Árabe
+Quantidade de câmeras traseiras: 3
+Tamanho da Tela: 6.52"
+Tela: Outro
+Origem: CN (Origem)
+Tecnologia de biometria: montagem lateral,Reconhecimento facial
+Capacidade da Bateria (mAh): 10000
+Tipo de Interface de carregamento: TYPE-C
+Carregamento sem fio: YES
+Quantidade de Chips: 2 cartões SIM
+Versão bluetooth: 5.0NFC: YES
+Quantidade de núcleos da CPU: Núcleo octa
+Faixa de capacidade da bateria: + 7500 mAh
+Modelo da CPU: MTK
+Padrão de transmissão Wi-Fi: 802.11ac,802.11n 2.4GHz/5 GHz,802.11b/g,802.11a
+Taxa de atualização da tela: 60Hz
+Certificado: CE
+Sensor da câmera traseira principal: SONY IMX350
+Tecnologia de Rede: GSM,WCDMA,LTE
+Tamanhos de tela: Grande (6.5-7")
+OTG Reverse Charging: Support
+GPS: Support
+GLONASS: Support
+Beidou: Support
+Galileo: Support
+Android version: Android 12
+OTG: Support
+FM: Support
+
+
+
+
+
+
+https://pt.aliexpress.com/item/1005003887396401.html?spm=a2g0o.store_pc_allProduct.8148356.67.37ba4aa7Dyqp3f&pdp_npi=2%40dis%21BRL%21R%24%202.295%2C05%21R%24%201.101%2C64%21%21%21%21%21%402100bdec16682555993736557e9991%2112000027696965972%21sh

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnders</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- #06181f -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+    <head>
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> FrontEnders</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> FrontEnders</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="paginas/ip68 e ip69k.html">O que é certificaçãp IP68 e IP69K?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="paginas/MIL-STD 810G.html">O que é certificação Militar MIL-STD 810G?</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Produtos:
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="nav-item" href="paginas/celulares/Ulefone Armor 15.html"> Ulefone Armor 15</a></li>
+                        <li><a class="nav-item" href="paginas/celulares/doogee s97 pro.html">Doogee s97 Pro</a></li>
+                        <li><a class="nav-item" href="paginas/celulares/blackview bl 5000.html">Blackview Bl 5000</a></li>
+                         <li><a class="nav-item" href="paginas/celulares/umidigi bison 2.html">Umidigi bison 2</a></li>
+                         <li><a class="nav-item" href="paginas/celulares/hotwav cyber 9.html">Hotwav cyber 9</a></li>
+                       
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Marcas:
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#AGM">AGM</a></li>
+                        <li><a class="dropdown-item" href="#Blackview">Blackview</a></li>
+                        <li><a class="dropdown-item" href="#Doogee">Doogee</a></li>
+                        <li><a class="dropdown-item" href="#Hotwav">Hotwav</a></li>
+                        <li><a class="dropdown-item" href="#Ulefone">Ulefone</a></li>
+                        <li><a class="dropdown-item" href="#Umidigi">Umidigi</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="paginas/formulario.html">Formulário</a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="#" onclick="loginIndex()">Login</a>
+                    </li>
+                  </ul>
+                  <div id="login">
+                   
+                  </div>
+                </div>
+
+          
+              </div>
+            </div>
+          </nav>
+    </head>
+
+    <section>
+
+      <!-- AKI COMECA OS CARROSSEL-->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="width: 90%; left: 5%;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Blackview/Blackview bv6300 pro/baner1.webp" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/DOOGEE/Doogee s97 pro/banner 22.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\Ulefone\Ulefone Power Armor 14 Pro\baner16.webp" class="w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- AKI TERMINA OS CARROSSEL-->
+
+
+      <!-- AKI COMECA OS CARD DA PROMOCAO-->
+      <div class="card mb-3" style="width: 80%; left: 10%;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/hub usb.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">PROMOÇÃO PARA PROGRAMADORES!</h5>
+              <p class="card-text">Comprando um de nossos produtos até dia 30 de novembro voçê poderá resgatar grátis um hub usb.</p>
+              <a href="#"><small class="text-muted">clique aqui para preencher e receber grátis.</a></small>
+            </div>
+            <img src="img/hub1.jpg" alt="" width="330">
+            <img src="img/hub2.jpg" alt="" width="330">
+          </div>
+        </div>
+      </div>
+      <!-- AKI COMECA OS CARD DA PROMOCAO-->
+
+
+
+
+
+
+
+      <!-- AKI COMECA OS CARDS SOBRE CERTIFICACAO -->
+      <div style="display: flex; justify-content: space-around; margin-top: 5%;">
+        <div class="card text-bg-dark mb-3 text-danger" style="max-width: 40%;">
+          <div class="card-header">IP68</div>
+          <div class="card-body">
+            
+            <div style="display: flex;">
+              <p class="card-text" style="max-width: 60%; text-align: justify; margin-right: 10%;">aki fala um breve resumo com um link... <a href="paginas/ip68 e ip69k.html">Ver mais.</a></p>
+              <img src="img/ip68.jpg" width="30%" height="30%" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark mb-3 text-danger" style="max-width: 40%;">
+          <div class="card-header">IP69K</div>
+          <div class="card-body">
+            
+            <div style="display: flex;">
+              <p class="card-text" style="max-width: 60%; text-align: justify; margin-right: 10%;">aki fala um breve resumo com um link... <a href="paginas/ip68 e ip69k.html">Ver mais.</a></p>
+              <img src="img/ip69k.jpg" width="30%" height="30%" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark mb-3 text-danger" style="max-width: 40%;">
+          <div class="card-header">MIL-STD-810G</div>
+          <div class="card-body">
+            
+            <div style="display: flex;">
+              <p class="card-text" style="max-width: 60%; text-align: justify; margin-right: 10%;">aki fala um breve resumo com um link... <a href="paginas/MIL-STD-810G.html">Ver mais.</a></p>
+              <img src="img/mil-std-810g.jpg" width="30%" height="30%" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- AKI TERMINA OS CARDS SOBRE CERTIFICACAO -->
+
+
+
+
+
+
+      <!-- AKI COMECA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+      <hr>
+      <h2 id="Blackview">Blackview</h2>
+
+      <div style="position: relative; height: 620px; margin-bottom: 1%;">
+        <div class="card mb-3" style="width: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/DaD7rft5aJI?autoplay=1&mute=1&loop=1&playlist=DaD7rft5aJI" title="#Blackview #BL5000 #5G Unboxing - Global 1st Leap-forward Game Rugged Phone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Para mais videos deste modelos e outros do fabricante clique aqui e seja redirecionado para o <a href="https://www.youtube.com/c/BlackviewHk/" target="_blank"> canal oficial Blackview <i class="fa-brands fa-youtube fa-3x"></i></a></p>
+            <p class="card-text"><small class="text-danger">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div style=" display: flex; justify-content: space-around; height: 70%; margin-bottom: 1%;">
+        <div class="card" style="margin: 10%; width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Blackview/Blackview BL 5000/preto.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Blackview/Blackview BL 5000/verde.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Blackview/Blackview BL 5000/laranja.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Blackview BL 5000</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+  
+        <div class="card" style="margin: 10%;  width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Blackview/Blackview bv6300 pro/preto.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Blackview/Blackview bv6300 pro/verde.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Blackview/Blackview bv6300 pro/laranja.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Blackview bv6300</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <!-- AKI TERMINA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+
+
+
+
+      <!-- AKI COMECA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+      <hr>
+      <h2 id="Doogee">Doogee</h2>
+
+      <div style="position: relative; height: 620px; margin-bottom: 1%;">
+        <div class="card mb-3" style="width: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/AV_vLtfzKuA?autoplay=1&mute=1&loop=1&playlist=AV_vLtfzKuA" title="Unboxing The Doogee V20-The King of all Rugged Smartphones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Para mais videos deste modelos e outros do fabricante clique aqui e seja redirecionado para o <a href="https://www.youtube.com/c/DOOGEE/" target="_blank"> canal oficial Doogee <i class="fa-brands fa-youtube fa-3x"></i></a></p>
+            <p class="card-text"><small class="text-danger">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div style="display: flex; justify-content: space-around; height: 70%; margin-bottom: 1%;">
+        <div class="card" style="margin: 10%; width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/DOOGEE/Doogee s97 pro/cinza.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/DOOGEE/Doogee s97 pro/vermelho.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/DOOGEE/Doogee s97 pro/laranja.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Doogee s97 pro</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+  
+        <div class="card" style="margin: 10%;  width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/DOOGEE/DOOGEE V20/cinza-liso.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/DOOGEE/DOOGEE V20/cinza.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/DOOGEE/DOOGEE V20/3.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Blackview bv6300</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <!-- AKI TERMINA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+
+
+
+
+      <!-- AKI COMECA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+      <hr>
+      <h2 id="Hotwav">Hotwav</h2>
+
+      <div style="position: relative; height: 620px; margin-bottom: 1%;">
+        <div class="card mb-3" style="width: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/2j2Rnb_aJS0?autoplay=1&mute=1&loop=1&playlist=2j2Rnb_aJS0" title="Come Check This Out: HOTWAV R6 Pro Rugged Tablet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Para mais videos deste modelos e outros do fabricante clique aqui e seja redirecionado para o <a href="https://www.youtube.com/c/HOTWAVOfficial" target="_blank"> canal oficial Hotwav <i class="fa-brands fa-youtube fa-3x"></i></a></p>
+            <p class="card-text"><small class="text-danger">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div style="display: flex; justify-content: space-around; height: 70%; margin-bottom: 1%;">
+        <div class="card" style="margin: 10%; width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Hotwav/Hotwav cyber 9/baner17.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Hotwav/Hotwav cyber 9/baner18.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Hotwav/Hotwav cyber 9/baner19.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Hotwav cyber 9</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+  
+        <div class="card" style="margin: 10%;  width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Hotwav/Hotwav r6 pro/preto.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Hotwav/Hotwav r6 pro/baner14.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Hotwav/Hotwav r6 pro/baner1.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Hotwav r6 pro</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <!-- AKI TERMINA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+
+
+
+
+      <!-- AKI COMECA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+      <hr>
+      <h2 id="Ulefone">Ulefone</h2>
+
+      <div style="position: relative; height: 620px; margin-bottom: 1%;">
+        <div class="card mb-3" style="width: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/QJS6Y0_pcSQ?autoplay=1&mute=1&loop=1&playlist=QJS6Y0_pcSQ" title="Ulefone Armor 15: World Leading Rugged Phone Built In TWS Earbuds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Para mais videos deste modelos e outros do fabricante clique aqui e seja redirecionado para o <a href="https://www.youtube.com/channel/UC4ft7RJ1lPpQq9zcwSi7LNg" target="_blank"> canal oficial Ulefone <i class="fa-brands fa-youtube fa-3x"></i></a></p>
+            <p class="card-text"><small class="text-danger">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div style="display: flex; justify-content: space-around; height: 70%; margin-bottom: 1%;">
+        <div class="card" style="margin: 10%; width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Ulefone/Ulefone Armor 15/vermelho.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Ulefone/Ulefone Armor 15/preto.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Ulefone/Ulefone Armor 15/azul.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Ulefone Armor 15</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="paginas/Ulefone Armor 15.html" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+  
+        <div class="card" style="margin: 10%;  width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Ulefone/Ulefone Power Armor 14 Pro/preto.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Ulefone/Ulefone Power Armor 14 Pro/5.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Ulefone/Ulefone Power Armor 14 Pro/baner10.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Ulefone Power Armor 14 Pro</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <!-- AKI TERMINA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+
+
+
+
+      <!-- AKI COMECA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+      <hr>
+      <h2 id="Umidigi">Umidigi</h2>
+
+      <div style="position: relative; height: 620px; margin-bottom: 1%;">
+        <div class="card mb-3" style="width: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/kFBKnmqQcH0?autoplay=1&mute=1&loop=1&playlist=kFBKnmqQcH0" title="Introducing UMIDIGI BISON X10 | X10 Pro - The Stylish Rugged Phone Innovator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Para mais videos deste modelos e outros do fabricante clique aqui e seja redirecionado para o <a href="https://www.youtube.com/umidigi" target="_blank"> canal oficial Umidigi <i class="fa-brands fa-youtube fa-3x"></i></a></p>
+            <p class="card-text"><small class="text-danger">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div style="display: flex; justify-content: space-around; height: 70%; margin-bottom: 1%;">
+        <div class="card" style="margin: 10%; width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Umidigi/Umidigi bison 2/liso.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Umidigi/Umidigi bison 2/com detalhe.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Umidigi/Umidigi bison 2/3.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Umidigi bison 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+  
+        <div class="card" style="margin: 10%;  width: 25%; height: 90%;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Umidigi/Umidigi bison x10/preto.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Umidigi/Umidigi bison x10/cinza.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Umidigi/Umidigi bison x10/laranja.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Umidigi bison x10</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6><s>R$:0.000,00</s></h6>
+            <h4><b>R$:0.000,00</b></h4>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <!-- AKI TERMINA UMA PARTE EXCLUSIVA DE UMA MARCA -->
+
+
+
+      
+
+
+      
+    </section>
+
+    <footer>
+      <div class="container text-danger">
+        <footer class="py-5">
+          <div class="row">
+            <div class="co-6 col-md-2 mb-3">
+              <h5>Cliente</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Quem somos</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Coloboradores</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">SAC</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Assitência técnica</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Trabalhe conosco</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Informações</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">IP68 e IP69K</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">MIL-STD 810G</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Termos e serviço</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Política de privacidade</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Guia de envio</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Marcas parceiras</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://www.agmmobile.com/" target="blank" class="nav-link p-0 text-danger">AGM</a></li>
+                <li class="nav-item mb-2"><a href="https://www.blackview.hk/" target="blank" class="nav-link p-0 text-danger">Blackview</a></li>
+                <li class="nav-item mb-2"><a href="https://www.doogee.cc/" target="blank" class="nav-link p-0 text-danger">Doogee</a></li>
+                <li class="nav-item mb-2"><a href="https://hotwav.com/" target="blank" class="nav-link p-0 text-danger">Hotwav</a></li>
+                <li class="nav-item mb-2"><a href="https://www.ulefone.com/" target="blank" class="nav-link p-0 text-danger">Ulefone</a></li>
+                <li class="nav-item mb-2"><a href="https://www.umidigi.com/" target="blank" class="nav-link p-0 text-danger">Umidigi</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Deixe seu email</h5>
+                <p>Fique por dentro das novidades através de nosso email.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Adicionar email</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Adicionar email">
+                  <button class="btn btn-primary" type="button">Inscrever</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <a class="redeSocial" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+              <a class="redeSocial" href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-3x"></i></a>
+              <a class="redeSocial" href="https://youtube.com/"><i class="fa-brands fa-youtube fa-3x"></i></a>
+              <a class="redeSocial" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://kit.fontawesome.com/913e757190.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

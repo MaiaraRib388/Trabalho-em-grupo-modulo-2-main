@@ -1,0 +1,71 @@
+Nome da marca: AGM
+Condição do Produto: New
+Tela sensível ao toque: Sim
+Carregamento rápido: Outro
+Porta de fone de ouvido de 3,5 mm: YES
+Sistema de operação: Android
+Pixels da câmera traseira: 48Mp
+Resolução da Tela: 1600x720
+Pixels da câmera frontal: 20MP
+Design: BAR
+Bateria: Não destacável
+Potência de carregamento: Outro
+Quantidade de câmeras frontais: 1
+Idioma: english,Russo,Alemão,French,Spanish,POLISH,Português,Italiano,Norueguês,Coreano,Japanese,Árabe
+Quantidade de câmeras traseiras: 3
+Tamanho da Tela: 6.52"
+Tela: TELA CHEIA
+Origem: CN (Origem)
+Tecnologia de biometria: Reconhecimento facial,Traseiro-montado
+Capacidade da Bateria (mAh): Outro
+Tipo de Interface de carregamento: TYPE-C
+Carregamento sem fio: YES
+Quantidade de Chips: 2 cartões SIM
+Versão bluetooth: 5.0
+NFC: YES
+MIL-STD-810G: YES
+Quantidade de núcleos da CPU: Núcleo octa
+Faixa de capacidade da bateria: 6000-7499mAh
+Modelo da CPU: MTK
+MTK Modelo: Helio G85
+Construído no radiador: no
+Taxa de atualização da tela: 60Hz
+IP68/IP69K: YES
+Tamanho CPU: 12NM
+Tipo de cartão de memória: Compartilhado com slot SIM
+Relação de zoom óptico: 4X
+Outros recursos: Estabilização óptica,Fotografia de celular,Telefone esportes
+Certificado: CE,ROHS,weee
+Tecnologia de Rede: GSM,CDMA,WCDMA,CDMA2000,LTE
+Tempo de espera: Outro
+Tamanhos de tela: Grande (6.5-7")
+Material da tela: LCD
+Dimension: 176.15*85.5*23mm
+Weight: 360g
+Touch Panel: Incel 5points multitouch,INCELL multi-touch
+Contrast: 1500 typ
+Brightness: 500cd/m2 typ
+Front Camera(Pixel): Sony IMX376
+Back Camera(Pixel): Samsung S5KGM2SP
+Macro Camera(Pixel): Gcoreinc GC02M2
+Night Vision camera: Sony IMX350
+Wifi: Wi-Fi 802.11a/b/g/n/ac 2.4G/5G
+OTG: Support
+Charging: Charging Dock10w; Wire Charging15W
+OS.: Android 12
+AT&T Carrier: America Support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://pt.aliexpress.com/item/1005004426797995.html?spm=a2g0o.store_pc_allProduct.8148356.15.1f5463aeODju3z&pdp_npi=2%40dis%21BRL%21R%24%202.201%2C19%21R%24%201.430%2C76%21%21%21%21%21%400b0a050b16682739465544739e8a35%2112000030298956766%21sh

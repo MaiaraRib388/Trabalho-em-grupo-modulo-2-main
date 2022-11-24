@@ -1,0 +1,84 @@
+/* PAGINA PRINCIPAL */
+.navbar{
+    /* background-color: rgba(90, 93, 105, 0.5);*/
+    background-color: rgba(10, 110, 146, 0.66);
+  }
+  .container {
+    background-color: rgba(10, 110, 146, 0.66);
+  }
+  .navbar-brand {
+    color: red;
+  }
+  body {
+    background-color: #06181f;
+  }
+  .redeSocial {
+    color: rgb(50, 50, 50);
+    margin: 0% 1% 0% 1%;
+  }
+  .redeSocial:hover {
+    color: rgb(0, 0, 50);
+    -webkit-transform: scale(1.5);
+  }
+  #rec:hover {
+    cursor: pointer;
+  }
+/* PAGINA PRINCIPAL */
+
+
+
+
+/* PAGINA DE PRODUTO */
+#coracao:hover {
+    color:  rgb(100, 100, 100);
+    cursor: pointer;
+  }
+  .navbar{
+    /* background-color: rgba(90, 93, 105, 0.5);*/
+    background-color: rgba(10, 110, 146, 0.66);
+  }
+  .container {
+    background-color: rgba(10, 110, 146, 0.66);
+  }
+  .navbar-brand {
+    color: red;
+  }
+  body {
+    background-color: #06181f;
+  }
+  .redeSocial {
+    color: rgb(50, 50, 50);
+    margin: 0% 1% 0% 1%;
+  }
+  .redeSocial:hover {
+    color: rgb(0, 0, 50);
+    -webkit-transform: scale(1.5);
+  }
+/* PAGINA DE PRODUTO */
+
+
+
+
+/* PAGINA DE FORMULARIO */
+.container {
+    max-width: 960px;
+  }
+/* PAGINA DE FORMULARIO */
+
+
+
+
+/* IP68 E IP69K */
+.p-ip68-e-ip69k, .h3-ip68-e-ip69k, .h4-ip68-e-ip69k {
+    margin: 0% 5% 0% 5%;
+}
+/* IP68 E IP69K */
+
+
+
+
+/* MIL-STD 810G */
+.p-MIL-STD-810G, .h3-MIL-STD-810G, .h4-MIL-STD-810G {
+    margin: 0% 5% 0% 5%;
+}
+/* MIL-STD 810G */

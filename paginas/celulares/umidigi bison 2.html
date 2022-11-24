@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Umidigi Bison 2 </title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    #coracao:hover {
+      color: rgb(100, 100, 100);
+      cursor: pointer;
+    }
+
+    .navbar {
+      /* background-color: rgba(90, 93, 105, 0.5);*/
+      background-color: rgba(10, 110, 146, 0.66);
+    }
+
+    .container {
+      background-color: rgba(10, 110, 146, 0.66);
+    }
+
+    .navbar-brand {
+      color: red;
+    }
+
+    body {
+      background-color: #06181f;
+    }
+
+    .redeSocial {
+      color: rgb(50, 50, 50);
+      margin: 0% 1% 0% 1%;
+    }
+
+    .redeSocial:hover {
+      color: rgb(0, 0, 50);
+      -webkit-transform: scale(1.5);
+    }
+  </style>
+  <script>
+    function coracao() {
+      document.getElementById('coracao').style.color = "rgb(220, 0, 0)"
+    }
+  </script>
+  <!-- #06181f -->
+</head>
+
+<head>
+    <nav class="navbar fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> FrontEnders</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> FrontEnders</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/paginas/ip68 e ip69k.html">O que é certificaçãp IP68 e IP69K?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/paginas/MIL-STD 810G.html">O que é certificação Militar MIL-STD 810G?</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Produtos:
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="nav-item" href="/paginas/celulares/Ulefone Armor 15.html"> Ulefone Armor 15</a></li>
+                    <li><a class="nav-item" href="/paginas/celulares/doogee s97 pro.html">Doogee s97 Pro</a></li>
+                    <li><a class="nav-item" href="/paginas/celulares/blackview bl 5000.html">Blackview Bl 5000</a></li>
+                     <li><a class="nav-item" href="/paginas/celulares/umidigi bison 2.html">Umidigi bison 2</a></li>
+                     <li><a class="nav-item" href="/paginas/celulares/hotwav cyber 9.html">Hotwav cyber 9</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Marcas:
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#AGM">AGM</a></li>
+                    <li><a class="dropdown-item" href="#Blackview">Blackview</a></li>
+                    <li><a class="dropdown-item" href="#Doogee">Doogee</a></li>
+                    <li><a class="dropdown-item" href="#Hotwav">Hotwav</a></li>
+                    <li><a class="dropdown-item" href="#Ulefone">Ulefone</a></li>
+                    <li><a class="dropdown-item" href="#Umidigi">Umidigi</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/paginas/formulario.html">Formulário</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="#" onclick="loginIndex()">Login</a>
+                </li>
+              </ul>
+              <div id="login">
+               
+              </div>
+            </div>
+
+      
+          </div>
+        </div>
+      </nav>
+</head>
+
+  <section>
+    <div class="card mb- container-sm pt-5" style="width: 90%; margin: 3% 0% 3% 5%">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video src="/img/Umidigi/Umidigi bison 2/Celular áspero da câmera tripla 128 mah do telefone 48mp da .mp4" controls
+                  poster="/img/Umidigi/Umidigi bison 2/1.webp" class="img-fluid rounded-start"
+                  alt="Video de apresentação."></video>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/Umidigi/Umidigi bison 2/2.webp" class="d-block w-100" alt=".">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/Umidigi/Umidigi bison 2/3.webp" class="d-block w-100" alt=".">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/Umidigi/Umidigi bison 2/4.webp" class="d-block w-100" alt=".">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Umidigi Bison 2</h5>
+            <p class="card-text">Celular áspero da câmera tripla 128 mah do telefone 48mp da rom 256gb 6150 gb de helio p90 do smartphone 12 do bison 2 de umidigi, bison 2 pro android 12 do bison</p>
+            <p class="card-text"><small class="text-muted">R$ 1.351,49</small><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path id="coracao" fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" onclick="coracao()" />
+              </svg></p>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-star-half text-danger" viewBox="0 0 16 16">
+              <path
+                d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+            </svg> 4.5
+            <br>
+
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+              aria-controls="offcanvasBottom">Comprar</button>
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+              aria-labelledby="offcanvasBottomLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body small">
+                .
+              </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Comprar2
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    .
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="accordion accordion-flush" id="accordionFlushExample" style="width: 85%; margin-left: 7.5%;">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+            style="color: white; opacity: .5;">
+            Umidigi Bison 2
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body row">
+            <img src="/img/Umidigi/Umidigi bison 2/liso.webp" style="width: 30%; display: inline;" class="col">
+           <img src="/img/Umidigi/Umidigi bison 2/baner22.webp" style="width: 40%; display: inline;" class="col"> 
+           <img src="/img/Umidigi/Umidigi bison 2/com detalhe.webp" style="width: 30%; display: inline;" class="col">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Introdução
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div class="card mb-3" style="width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/kFBKnmqQcH0?autoplay=1&mute=1&loop=1&playlist=kFBKnmqQcH0" title="Introducing UMIDIGI BISON X10 | X10 Pro - The Stylish Rugged Phone Innovator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+            style="color: white; opacity: .5;">
+            Informações gerais
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <img src="/img/Umidigi/Umidigi bison 2/baner1.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner2.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner3.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner4.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner5.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner6.jpg" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner7.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner8.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner9.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner10.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner11.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner12.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner13.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner14.jpg" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner15.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner16.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner17.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner18.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner19.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner20.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner21.webp" style="width: 80%; margin-left: 10%;">
+            <img src="/img/Umidigi/Umidigi bison 2/baner22.webp" style="width: 80%; margin-left: 10%;">
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            Detalhes
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-hover table table-bordered table-primary"
+              style="width: 90%; margin-left: 5%;">
+              <thead>
+                <tr>
+                  <th class="table-dark" scope="col" colspan="6" style="text-align: center;">Atribuições</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Marca:</strong> Umidigi</td>
+
+                  <td><strong>Memória interna:</strong> 128GB</td>
+                </tr>
+                <tr>
+                  <td><strong>Max. expansão suportada:</strong> 256GB</td>
+
+                  <td><strong>Processador:</strong> MediaTek helio G35</td>
+                </tr>
+                <tr>
+                  <td><strong>Memória RAM:</strong> 8GB</td>
+
+                  <td><strong>Frequência da cpu:</strong> 2.3ghz</td>
+                </tr>
+                <tr>
+                  <td><strong>Número de núcleos:</strong> 8 núcles</td>
+
+                  <td><strong>Processador:</strong> MediaTek helio G35</td>
+                </tr>
+                <tr>
+                  <td><strong>Versão android:</strong> Android 12</td>
+
+                  <td><strong>Entrada usb:</strong> Usb tipo c, 2.0</td>
+                </tr>
+              </tbody>
+
+              <thead>
+                <tr>
+                  <th class="table-dark" scope="col" colspan="6" style="text-align: center;">Bateria</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Capacidade:</strong> 6600mAh</td>
+
+                  <td><strong>Tipo de bateria:</strong> Polímero de lítio</td>
+                </tr>
+                <tr>
+                  <td><strong>Detalhes de carregamento:</strong> 18w, 9v/2a</td>
+
+                  <td><strong>Tempo de carregamento:</strong> 2 horas</td>
+                </tr>
+                <tr>
+                  <td><strong>Duração da bateria em jogos:</strong> 10 horas</td>
+
+                  <td><strong>Duração da bateria em vídeos:</strong> 13 horas</td>
+                </tr>
+                <tr>
+                  <td><strong>Duração da bateria com músicas:</strong> 17 horas</td>
+
+                  <td><strong>Duração da bateria em modo de espera:</strong> 20 dias</td>
+                </tr>
+              </tbody>
+
+              <thead>
+                <tr>
+                  <th class="table-dark" scope="col" colspan="6" style="text-align: center;">Tela</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Resolução da tela:</strong> 1440x720 pixels</td>
+
+                  <td><strong>Tamanho da tela:</strong> 5.45 polegadas</td>
+                </tr>
+                <tr>
+                  <td><strong>Densidade de pixels:</strong> 295PPI</td>
+
+                  <td><strong>Taxa de atualização:</strong> 60hz</td>
+                </tr>
+              </tbody>
+
+              <thead>
+                <tr>
+                  <th class="table-dark" scope="col" colspan="6" style="text-align: center;">Câmera</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Número de câmera traseira:</strong> 2</td>
+
+                  <td><strong>Câmera traseira principal:</strong> 12 megapixels</td>
+                </tr>
+                <tr>
+                  <td><strong>Câmera traseira secundária:</strong> 13 megapixels</td>
+
+                  <td><strong>Câmera frontal:</strong> 16 megapixels</td>
+                </tr>
+                <tr>
+                  <td><strong>Resolução de gravação de vídeo:</strong> Até 1080p e 30fps</td>
+
+                  <td><strong>Câmera subaquática:</strong> Sim</td>
+                </tr>
+              </tbody>
+
+              <thead>
+                <tr>
+                  <th class="table-dark" scope="col" colspan="6" style="text-align: center;">Rede e conectividade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Entradas:</strong> 2 entradas para nano chip e 1 microsd</td>
+
+                  <td><strong>Redes compatíveis:</strong> 2g, 3g e 4g</td>
+                </tr>
+                <tr>
+                  <td><strong>Wifi:</strong> 2.5g e 5g</td>
+
+                  <td><strong>Versão bluetooth:</strong> 5.0</td>
+                </tr>
+                <tr>
+                  <td><strong>NFC:</strong> Sim</td>
+
+                  <td><strong>:</strong> </td>
+                </tr>
+              </tbody>
+
+              <thead>
+                <tr>
+                  <th class="table-dark" scope="col" colspan="6" style="text-align: center;">Certificações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Certificado:</strong> Ip68, ip69k e MILD-SDT-810G</td>
+
+                  <td><strong>A prova de água:</strong> 30 minutos a 1,5 metros de profundidade</td>
+                </tr>
+                <tr>
+                  <td><strong>A prova de poeira:</strong> 24 horas a 1 metro de profundidade</td>
+
+                  <td><strong>A prova de queda:</strong> Resistência à quedas de 1,5 metros</td>
+                </tr>
+                <tr>
+                  <td><strong>a prova de temperaturas extremas:</strong> -20 ℃ - 55 ℃ (-4 ℉ - 131 ℉)</td>
+
+                  <td><strong>:</strong> </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </section>
+
+  <footer>
+    <div class="container  text-danger">
+      <footer class="py-5">
+        <div class="row">
+          <div class="co-6 col-md-2 mb-3">
+            <h5>Cliente</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Quem somos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Coloboradores</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">SAC</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Assitência técnica</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Trabalhe conosco</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Informações</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">IP68 e IP69K</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">MIL-STD 810G</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Termos e serviço</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Política de privacidade</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-danger">Guia de envio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Marcas parceiras</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.agmmobile.com/" target="blank"
+                  class="nav-link p-0 text-danger">AGM</a></li>
+              <li class="nav-item mb-2"><a href="https://www.blackview.hk/" target="blank"
+                  class="nav-link p-0 text-danger">Blackview</a></li>
+              <li class="nav-item mb-2"><a href="https://www.doogee.cc/" target="blank"
+                  class="nav-link p-0 text-danger">Doogee</a></li>
+              <li class="nav-item mb-2"><a href="https://hotwav.com/" target="blank"
+                  class="nav-link p-0 text-danger">Hotwav</a></li>
+              <li class="nav-item mb-2"><a href="https://www.ulefone.com/" target="blank"
+                  class="nav-link p-0 text-danger">Ulefone</a></li>
+              <li class="nav-item mb-2"><a href="https://www.umidigi.com/" target="blank"
+                  class="nav-link p-0 text-danger">Umidigi</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Deixe seu email</h5>
+              <p>Fique por dentro das novidades através de nosso email.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Adicionar email</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Adicionar email">
+                <button class="btn btn-primary" type="button">Inscrever</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <a class="redeSocial" href="https://www.facebook.com/"><i
+                class="fa-brands fa-square-facebook fa-3x"></i></a>
+            <a class="redeSocial" href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a class="redeSocial" href="https://youtube.com/"><i class="fa-brands fa-youtube fa-3x"></i></a>
+            <a class="redeSocial" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+  </footer>
+
+
+  <script src="https://kit.fontawesome.com/913e757190.js" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

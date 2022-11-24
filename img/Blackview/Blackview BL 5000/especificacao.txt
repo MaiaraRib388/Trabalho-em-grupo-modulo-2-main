@@ -1,0 +1,39 @@
+Nome da marca: BLACKVIEW
+Condição do Produto: New
+Tela sensível ao toque: Sim
+Carregamento rápido: Carga Rápida Adaptável
+Porta de fone de ouvido de 3,5 mm: no
+Sistema de operação: Android
+Pixels da câmera traseira: 12MP
+Resolução da Tela: 1080x2300
+Pixels da câmera frontal: 16MP
+Design: BAR
+Bateria: Não destacável
+Potência de carregamento: 30W
+Quantidade de câmeras frontais: 1
+Idioma: english,Russo,Alemão,French,Spanish,POLISH,Português,Italiano,Turkish,Norueguês,Coreano,Japanese,Árabe
+Quantidade de câmeras traseiras: 3
+Tamanho da Tela: 6,35''
+Tela: tela normal
+Origem: CN (Origem)
+Tecnologia de biometria: montagem lateral,Reconhecimento facial
+Capacidade da Bateria (mAh): 4980
+Tipo de Interface de carregamento: TYPE-C
+Carregamento sem fio: no
+Quantidade de Chips: 2 cartões SIM
+NFC: YES
+Quantidade de núcleos da CPU: Núcleo octa
+Faixa de capacidade da bateria: 4500-5999 mAh
+Modelo da CPU: MTK
+Certificado: CE
+Tecnologia de Rede: GSM,CDMA,WCDMA,LTE,5GWi-Fi version: 802.11a/b/g/n/ac
+Bluetooth version: 5.2
+CPU name: MT6833
+Standby time: 600H
+Security: Face ID, Fingerprint Scanner
+Feature 1: GPS+GLONASS+Beidou
+Feature 2: OTG, NFC
+Feature 3: Gaming Rugged Phone
+
+
+https://pt.aliexpress.com/item/1005003069336630.html?spm=a2g0o.store_pc_allProduct.8148356.67.72f97348Q4vKti&pdp_npi=2%40dis%21BRL%21R%24%202.768%2C37%21R%24%201.328%2C81%21%21%21%21%21%402103255a16679388396985983e12fb%2112000029900383817%21sh
